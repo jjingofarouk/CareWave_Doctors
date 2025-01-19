@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "UCare",
+    "slug": "UCare",
+    "version": "1.0.0",   
+    "newArchEnabled": true,
+    "entryPoint": "./App.js" 
+
+  }
+}

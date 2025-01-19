@@ -1,0 +1,12 @@
+.home {
+    &-title {
+        display: flex;
+        justify-content:center;
+        font-size:50px;
+        margin-bottom:30px;
+    }
+
+    &-char {
+        height: 240px;
+    }
+}

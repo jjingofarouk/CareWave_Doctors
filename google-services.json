@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "8164296498",
+    "project_id": "ucare-a9e57",
+    "storage_bucket": "ucare-a9e57.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8164296498:android:d2a71c25d38c33208f792b",
+        "android_client_info": {
+          "package_name": "com.ucare.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjtNolGr7elhI62Kf9dybXDZV0rfcI2t4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

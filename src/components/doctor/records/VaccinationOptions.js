@@ -1,0 +1,22 @@
+export const vaccinationOptions = [
+    { label: 'COVID-19', value: 'covid19' },
+    { label: 'Influenza (Flu)', value: 'influenza' },
+    { label: 'Hepatitis A', value: 'hepatitis_a' },
+    { label: 'Hepatitis B', value: 'hepatitis_b' },
+    { label: 'Tetanus, Diphtheria, Pertussis (Tdap)', value: 'tdap' },
+    { label: 'Measles, Mumps, Rubella (MMR)', value: 'mmr' },
+    { label: 'Varicella (Chickenpox)', value: 'varicella' },
+    { label: 'Meningococcal', value: 'meningococcal' },
+    { label: 'Human Papillomavirus (HPV)', value: 'hpv' },
+    { label: 'Pneumococcal (Pneumonia)', value: 'pneumococcal' },
+    { label: 'Shingles (Herpes Zoster)', value: 'shingles' },
+    { label: 'Polio (IPV)', value: 'polio' },
+    { label: 'Rotavirus', value: 'rotavirus' },
+    { label: 'Haemophilus Influenzae Type B (Hib)', value: 'hib' },
+    { label: 'Typhoid', value: 'typhoid' },
+    { label: 'Yellow Fever', value: 'yellow_fever' },
+    { label: 'Rabies', value: 'rabies' },
+    { label: 'Japanese Encephalitis', value: 'japanese_encephalitis' },
+    { label: 'Cholera', value: 'cholera' },
+  ];
+  

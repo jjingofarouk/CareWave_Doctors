@@ -1,0 +1,40 @@
+/* Center the spinner and text */
+.spinner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f7fa; /* Light background for contrast */
+  }
+  
+  /* Create a modern, smooth spinner */
+  .loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 6px solid rgba(0, 150, 136, 0.2); /* Teal transparent border */
+    border-top: 6px solid #009688; /* Solid teal top border for animation */
+    border-radius: 50%;
+    animation: spin 1s linear infinite; /* Smooth spin animation */
+  }
+  
+  /* Loading text with modern typography */
+  .loading-text {
+    margin-top: 16px;
+    font-size: 18px;
+    color: #333333; /* Dark gray text */
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  
+  /* Spinner animation */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

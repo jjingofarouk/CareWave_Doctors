@@ -1,0 +1,70 @@
+/* Card Base */
+.card {
+    background: var(--card-bg, #ffffff);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Card Variants */
+  .card-default {
+    border: 1px solid #eaeaea;
+  }
+  
+  .card-elevated {
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-outline {
+    border: 2px solid #004c54;
+    background: transparent;
+  }
+  
+  /* Card Header */
+  .card-header {
+    padding: 16px;
+    background: var(--card-header-bg, #f7f7f7);
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  /* Card Title */
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--card-title-color, #333333);
+    margin: 0;
+  }
+  
+  /* Card Description */
+  .card-description {
+    font-size: 0.9rem;
+    color: var(--card-description-color, #555555);
+    margin-top: 8px;
+  }
+  
+  /* Card Content */
+  .card-content {
+    padding: 16px;
+    color: var(--card-content-color, #666666);
+    flex: 1;
+  }
+  
+  /* Card Footer */
+  .card-footer {
+    padding: 16px;
+    background: var(--card-footer-bg, #f7f7f7);
+    border-top: 1px solid #eaeaea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
